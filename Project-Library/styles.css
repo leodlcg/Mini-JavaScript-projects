@@ -1,0 +1,225 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html, body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+#content-register-book{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px #2a2a3d solid;
+    width: 30%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.title-content-book{
+
+    padding: 10px 150px;
+    margin-bottom: 100px;
+    background-color: #2a2a3d;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border-color 0.2s, background-color 0.2s;
+
+}
+
+#form-register-book{
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #1e1e2e;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+}
+
+.label{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+
+}
+
+#form-register-book input[type="text"],
+#form-register-book input[type="number"]{
+
+    padding: 10px 12px;
+    background-color: #2a2a3d;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s, background-color 0.2s;
+
+}
+
+#form-register-book input:focus{
+
+    outline: none;
+    border-color: #7c5cff;
+    background-color: #31314a;
+
+}
+
+#form-select-book{
+
+    padding: 10px 12px;
+    background-color: #2a2a3d;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+
+}
+
+#form-select-book:focus{
+
+    outline: none;
+    border-color: #7c5cff;
+    background-color: #31314a;
+
+}
+
+.option-form-select-book{
+
+    background-color: #2a2a3d;
+    color: white;
+
+}
+
+#checkbox-read{
+
+    width: 20px;
+    height: 20px;
+
+}
+
+#div-label-checkbox{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn{
+
+    padding: 12px;
+    background-color: #7c5cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+
+}
+
+.btn:hover{
+
+    background-color: #6a49e8;
+
+}
+
+.btn:active{
+
+    transform: scale(0.98);
+
+}
+
+#content-view-books{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px #2a2a3d solid;
+    width: 60%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+#list-books{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border: 1px wheat solid;
+    text-align: center;
+
+}
+
+#header-view-book{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px wheat solid;
+    text-align: center;
+
+}
+
+#div-view-book{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 1fr;
+    justify-content: space-around;
+    place-items: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.text-view-book{
+
+    color: white;
+
+}
+
+.btn-view-book{
+
+    background: none;
+    color: red;
+    border: none;
+
+}
+
+#btn-updade-view{
+
+    margin-top: 100px;
+    width: 40%;
+
+}
+
+

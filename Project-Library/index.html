@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplesLibrary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div id="content-register-book">   
+
+        <h1 class="title-content-book">Register</h1>
+
+        <form id="form-register-book">
+
+            <label class="label" for="label-author">Author</label>
+            <input id="label-author" class="input" type="text" name="author" minlength="3" maxlength="25" required>
+
+            <label class="label" for="form-select-book">Category</label>
+            <select id="form-select-book" name="category" required>
+                <option class="option-form-select-book" value="Fantasy">Fantasy</option>
+                <option class="option-form-select-book" value="Fiction">Fiction</option>
+                <option class="option-form-select-book" value="Mystery" selected>Mystery</option>
+                <option class="option-form-select-book" value="Thriller">Thriller</option>
+                <option class="option-form-select-book" value="Romance">Romance</option>
+                <option class="option-form-select-book" value="Horror">Horror</option>
+                <option class="option-form-select-book" value="Historical">Historical Fiction</option>
+                <option class="option-form-select-book" value="Biography">Biography</option>
+                <option class="option-form-select-book" value="Selfhelp">Selfhelp</option>
+                <option class="option-form-select-book" value="History">History</option>
+            </select>
+
+            <label class="label" for="label-numberPages">Number of pages</label>
+            <input id="label-numberPages" class="input" type="number" name="numberPages" min="1" required>
+
+            <div id="div-label-checkbox">
+
+                <label class="label" for="checkbox-read">Did you read the book?</label>
+                <input id="checkbox-read" class="input" type="checkbox" name="read" min="1">
+
+            </div>
+
+            <button id="btn-form-send" class="btn" type="submit">Send</button>
+
+        </form>
+
+    </div>
+
+    <div id="content-view-books">
+
+        <h1 class="title-content-book">View</h1>
+
+        <div id="list-books">
+
+            <div id="header-view-book">
+
+                <h3 class="text-view-book">Author</h3>
+                <h3 class="text-view-book">Category</h3>
+                <h3 class="text-view-book">Number Pages</h3>
+                <h3 class="text-view-book">Did read?</h3>
+                <h3 class="text-view-book">ID</h3>
+                <h3 class="text-view-book">Delete</h3>
+
+            </div>
+
+            <div id="div-view-book">
+
+            </div>
+
+        </div>
+    
+    </div>
+    
+</body>
+
+<script type="module" src="backend.js" defer></script>
+
+</html>
