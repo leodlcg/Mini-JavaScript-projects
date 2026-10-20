@@ -1,0 +1,48 @@
+.content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: aliceblue;
+
+}
+
+.title{
+
+
+
+}
+
+.content-foods{
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 500px;
+    overflow: auto;
+    gap: 40px;
+
+}
+
+.imgFood{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.imgFood:hover{
+
+    transform: scale(1.1);
+
+}
+
+.subTitle{
+
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: justify;
+
+}
